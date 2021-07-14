@@ -3,7 +3,23 @@ h1
 	color: blue;
 }
 
-ul
+nav ul
 {
 	list-style-type: none;
+	display:  flex;
+}
+nav li
+{
+	margin-right: 15px;
+}
+nav a 
+{
+	font-size:  1em;
+	color:   #0065FC;
+	padding-bottom:  3px;
+}
+nav a:hover
+{
+	border-top:  3px solid  #0065FC;
+	font-weight: bold;
 }
