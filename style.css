@@ -1,30 +1,70 @@
 body
 {
-	font-family:  Raleway thin;
+	font-family:  Raleway thin, sans serif;
 }
 
-h1
+#logo 
 {
-	color: blue;
+	display:  flex;
+	padding-top:5px;
+
+
+}
+#logo img
+{	width: 59px;
+	height: 60px;
+}
+div h1
+{
+	font-size: 1em;
+	font-family: Raleway, sans serif;
 }
 
-nav ul
+header nav ul
 {
 	list-style-type: none;
 	display:  flex;
+	flex-direction: ;
+	justify-content:flex-end;
+	
 }
 nav li
 {
 	margin-right: 15px;
+	padding-top: 0px;
+
 }
 nav a 
 {
 	font-size:  1em;
-	color:   #0065FC;
-	padding-bottom:  3px;
+	padding-bottom:  1px;
+	color: #181818;
+	text-decoration: none;
+	padding-top: 30px;
+
 }
 nav a:hover
 {
-	border-top:  3px solid  #0065FC;
-	font-weight: bold;
+	border-top:  2px solid #0065FC;
+	color: #0065FC;
+}
+footer
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: #F2F2F2;
+	padding-right: 200px;
+	padding-left: 50px;
+
+}
+footer ul
+{
+
+	list-style-type: none;
+	padding-left: 0px;
+	text-decoration: none;
+}
+div ul
+{
+	text-decoration: none;
 }
