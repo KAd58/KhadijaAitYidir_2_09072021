@@ -1,7 +1,15 @@
 body
 {
-	font-family:  Raleway thin, sans serif;
+	font-family:  Raleway, sans serif;
+	margin: 30px;
+
 }
+#bloc_page
+{
+	width: auto;
+	margin: auto;
+}
+/*header*/
 
 #logo 
 {
@@ -24,8 +32,8 @@ header nav ul
 {
 	list-style-type: none;
 	display:  flex;
-	flex-direction: ;
 	justify-content:flex-end;
+
 	
 }
 nav li
@@ -36,11 +44,12 @@ nav li
 }
 nav a 
 {
-	font-size:  1em;
+	font-size:  0.8em;
 	padding-bottom:  1px;
 	color: #181818;
 	text-decoration: none;
 	padding-top: 30px;
+
 
 }
 nav a:hover
@@ -48,23 +57,121 @@ nav a:hover
 	border-top:  2px solid #0065FC;
 	color: #0065FC;
 }
-footer
+
+/*div*/
+
+div p
+{
+	font-size:  0.8em;
+}
+#filtre ul
+{
+	display:  flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: flex;
+	padding-left: 0;
+	font-family: Raleway, sans serif;
+	font-weight: bold;
+	font-size: 0.9em;
+	
+}
+#filtre a 
+{
+	border: 1px solid #F2F2F2;
+	border-radius: 20px;
+	text-decoration: none;
+	padding: 12px;
+	margin: 10px;
+}
+
+/*section*/
+
+
+#conteneur
 {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
-	background-color: #F2F2F2;
-	padding-right: 200px;
-	padding-left: 50px;
+	margin-bottom: 20px;
+	display: flex;
 
 }
-footer ul
-{
 
-	list-style-type: none;
-	padding-left: 0px;
+.contenant
+{
+	position: relative;
+	text-align: center;
+}
+
+
+.texte_center
+{
+	position: absolute;
+	bottom: 35%;
+	left: 30%;
+	background-color: white;
+
+}
+article
+{
+	
+	background-color: #F2F2F2;
+}
+
+.populaire
+{
+	
+
+}
+
+
+figure
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+/*footer*/
+footer 
+{
+	display: flex;
+	flex-direction: row;
+	background-color: #F2F2F2;
+	justify-content: space-around;
+	
+}
+
+footer div
+{
 	text-decoration: none;
+
 }
 div ul
 {
+	list-style-type: none;
+	padding-left: 0;
+
+
+}
+div a 
+{
 	text-decoration: none;
+
+}
+.a_propos
+{
+	margin-left: 10px;
+	
+	margin-right: 10px;
+}
+.noshebergements
+{
+padding-left: 0px;
+margin-left: 10px;
+}
+.assistance
+{
+	margin-left: 0px;
 }
