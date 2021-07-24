@@ -70,40 +70,40 @@ div p
 	flex-direction: row;
 	list-style-type: none;
 	justify-content: flex;
-	padding-left: 0;
+
 	font-family: Raleway, sans serif;
 	font-weight: bold;
 	font-size: 0.9em;
 	
 }
-#filtre a 
+.filtre a 
 {
 	border: 1px solid #F2F2F2;
+	display:flex;
+	flex-direction: row;
 	border-radius: 20px;
 	text-decoration: none;
 	padding: 12px;
 	margin: 10px;
 }
 
-/*section*/
+/*section hebergements*/
 
-
-#conteneur
+.marseille
 {
-	display: flex;
+	display:flex;
 	flex-direction: row;
-	justify-content: space-between;
-	margin-bottom: 20px;
-	display: flex;
-
 }
-
-.contenant
+.conteneur
 {
-	position: relative;
-	text-align: center;
-}
 
+	border: 2px solid #F2F2F2 ;
+	background-color: #F2F2F2;
+	border-radius: 10px;
+	flex:2;
+	height: 650px;
+	margin-right:20px;
+}
 
 .texte_center
 {
@@ -111,21 +111,87 @@ div p
 	bottom: 35%;
 	left: 30%;
 	background-color: white;
-
 }
-article
-{
-	
-	background-color: #F2F2F2;
-}
-
 .populaire
 {
-	
+	flex:1;
+	margin-left:20px;
+	height: 650px;
+	border-radius: 10px;
+	background-color: #F2F2F2;
+}
+.bloc1
+{
+	padding-left:20px;
+	padding-right:20px;
 
 }
+.bloc2
+{
+	padding-left:20px;
+	padding-right:20p;
+	display:flex;
+	flex-direction: row;
+}
+.positionimage
+{
+	display:flex;
+	flex-direction: row;
+		
+}
+.image
+{	background-image: url(hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+	border-radius: 15px 15px 0 0;
+	background-size:cover;
+	background-position: center;
+	width: 100%;
+	height:120px;
+}
+.image1
+{	background-image: url(hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);	
+	border-radius: 15px 15px 0 0;
+	background-size:cover;
+	background-position: center;
+	width: 100%;
+	height:120px;
+}.image2
+{	background-image: url(hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+	border-radius: 15px 15px 0 0;
+	background-size:cover;
+	background-position: center;
+	width: 100%;
+	height:120px;
+}.image3
+{	background-image: url(hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+	border-radius: 15px 15px 0 0;
+	background-size:cover;
+	background-position: center;
+	width: 100%;
+	height:120px;
+}.image4
+{	background-image: url(hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+	border-radius: 15px 15px 0 0;
+	background-size:cover;
+	background-position: center;
+	width: 100%;
+	height:120px;
+}.image5
+{	background-image: url(hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+	border-radius: 15px 15px 0 0;
+	background-size:cover;
+	background-position: center;
+	width: 100%;
+	height:120px;
+}
+.texte 
+{
 
-
+}
+.contenant
+{
+	position: relative;
+	text-align: center;
+}
 figure
 {
 	display: flex;
