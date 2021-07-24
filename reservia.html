@@ -3,11 +3,13 @@
 	<head>
 		<Title>Reservia</Title>
 		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
 	</head>
 	<body>
-		<div id="bloc_page">
+		<div class="bloc_page">
 			<header>
-				<div id="logo">
+				<div class="logo">
 					<img src="logo/reservia.svg" alt="logo reservia"/>
 			</div>
 			<nav>
@@ -24,7 +26,7 @@
 			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 			<p>En plein centre ville ou en pleine nature</p>
 		
-			<div id="recherche">
+			<div class="recherche">
 			<form method="post" action="#">
 				<p>
 					<label for="recherche">Rechercher</label>
@@ -34,7 +36,7 @@
 			</form>
 
 			</div>
-			<div id="filtre">
+			<div class="filtre">
 		
 				<ul>
 					<li>Filtres</li>
@@ -48,44 +50,91 @@
 
 			<p>Plus de 500 logements sont disponibles dans cette ville</p>
 		</div>
-		
 	
 
-	<section>
+	<section class="marseille" >
 
-		<h1 id="hebergement">Hébergements à Marseille</h1>
-		<p>
-		
-		</p>
-	</section>
+		<div class="conteneur">
 
+			<h1 id="hebergement">Hébergements à Marseille</h1>
+			<div class=bloc1>
+			<div class="positionimage">
+
+				<div class="image"></div>
+				<div class="texte">
+				<h1>Auberge la Cannebiere</h1>
+				<p>Nuit à partir de 25€</p>
+				</div>
+
+				<div class="image1"></div>
+				<div class="texte">
+				<h1>Hôtel du port</h1>
+				<p>Nuit à partir de 52€</p>
+				</div>
+
+				<div class="image2"></div>
+				<div class="texte">
+				<h1>Hôtel les Mouettes</h1>
+				<p>Nuit à partir de 76€</p>
+				</div>
+			</div>
+
+			<div class=bloc2>
+				<div class="image3"></div>
+				<div class="texte">
+				<h1>Hôtel de la Mer</h1>
+				<p>Nuit à partir de 46€</p>
+				</div>
+
+				<div class="image4"></div>
+				<div class="texte">
+				<h1>Auberge Le Panier</h1>
+				<p>Nuit à partir de 23€</p>
+				</div>
+
+				<div class="image5"></div>
+				<div class="texte">
+					<h1>Hôtel chez Amina</h1>
+					<p>Nuit à partir de 96€</p>
+				</div>
+			</div>
+			</div>
+		</div>
 	
-	<section>
+
+	<aside class="populaire">
 		<h1>Les plus populaires</h1>
-		<p>
-		</p>
-	</section>
+		
+	</aside>
+	
+		</div>
 
 	<section>
 
-		<h1 id="activites">Activités à Marseille</h1>
+		<h3 id="activites">Activités à Marseille</h3>
 		<figure>
+			
+			<div class="contenant">
 
-		<img src="activites/vieux_port.jpg"/><br/>
-		<figcaption> Vieux port</figcaption>
-
-		<img src="activites/fort.jpg"/>
+		<img src="activites/vieux_port.jpg" alt="image"/><br/>
+		<div class="texte_center">Vieux port</div>
+			</div>
+			
+		<img src="activites/fort.jpg"alt="image1"/>
 		<figcaption>Fort de Pomègues</figcaption>
-
-		<img src="activites/frioul.jpg"/>
+			
+	
+		<img src="activites/frioul.jpg" alt="image2"/>
 		<figcaption>Îles du Frioul</figcaption>
 
+		<div class="contenant">
 		<img src="activites/calanques.jpg"/>
 		<figcaption>Parc National des Calanques</figcaption>
+		</div>
 
 		<img src="activites/notre_dame.jpg"/>
 		<figcaption>Notre-Dame-de-la-Garde</figcaption>
-
+		</div>
 		<img src="activites/longchamp.jpg"/>
 		<figcaption>Parc Longchamp</figcaption>
 		
@@ -93,7 +142,8 @@
 	</section>
 
 	<footer>
-		<div>
+		
+			<div class="a_propos">
 		<h3>A propos</h3>
 		
 			<ul>
@@ -102,7 +152,7 @@
 				<li><a href="#">Données et confidantialité</a></li>
 			</ul>
 		</div>	
-		<div>
+		<div class="noshebergements">
 		<h3>Nos hébergements</h3>
 		
 			<ul>
@@ -110,7 +160,7 @@
 				<li><a href="#">Soumettre votre hôtel</a></li>
 			</ul>
 		</div>
-		<div>
+		<div class="assistance">
 		<h3>Assistance</h3>
 		
 			<ul>
