@@ -152,7 +152,7 @@ div p
 	padding-left: 30px;
 	padding-top: 30px;
 }
-.conteneur
+.conteneurhebergement
 {
 	flex:2;
 	background-color: #F2F2F2;
@@ -167,7 +167,6 @@ div p
 	height: 650px;
 	border-radius: 10px;
 	background-color: #F2F2F2;
-	
 }
 .bloc1
 {
