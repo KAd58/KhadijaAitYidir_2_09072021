@@ -1,7 +1,6 @@
 body
 {
-	font-family:  Raleway, sans serif;
-	margin: 30px;
+	font-family:  Raleway, "sans serif";
 }
 #bloc_page
 {
@@ -23,7 +22,7 @@ body
 div h1
 {
 	font-size: 1em;
-	font-family: Raleway, sans serif;
+	font-family: Raleway, "sans serif";
 }
 
 header nav ul
@@ -94,7 +93,7 @@ div p
 	list-style-type: none;
 	justify-content: flex;
 
-	font-family: Raleway, sans serif;
+	font-family: Raleway, "sans serif";
 	font-weight: bold;
 	font-size: 0.9em;
 	align-items: center;
@@ -153,21 +152,31 @@ div p
 	padding-top: 30px;
 
 }
+h2
+{
+	font-size: 17px;
+}
+h3
+{
+	font-size: 13px;
+}
 .conteneurhebergement
 {
 	flex:2;
 	background-color: #F2F2F2;
 	border-radius: 10px;
-	height: 650px;
+	height: 600px;
 	margin-right:20px;
+	margin-left:50px;
 }
 .populaire
 {
 	flex:1;
 	margin-left:20px;
-	height: 650px;
+	height: 600px;
 	border-radius: 10px;
 	background-color: #F2F2F2;
+	margin-right:50px;
 }
 .bloc1
 {
@@ -177,7 +186,7 @@ div p
 	flex-direction: row;
 	justify-content: space-around;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .bloc2
@@ -187,7 +196,7 @@ div p
 	display:flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin-top:20px;
+	margin-top:30px;
 
 	
 }
@@ -195,9 +204,7 @@ div p
 {
 	display:flex;
 	flex-direction: column;
-	height:170px;
-
-		
+	height:170px;		
 }
 .fond_blanc
 {
@@ -206,12 +213,13 @@ div p
 	padding: 5px;
 	width: 30%;
 	height:190px;
-
+	box-shadow: 2px 2px 6px rgb(170, 167, 167);
 }
 .texte
 {
 	padding-left: 10px;
-	font-size: 12px;
+	font-size: 13px;
+	color:black;
 }
 .icon{
 	padding-top: 30px; 
@@ -227,12 +235,11 @@ div p
 {
 	color: rgb(204, 199, 199);
 	font-size:10px;
+	padding-top:1px;
 	}
 .image 
 {	
 	border-radius: 15px 15px 0 0;
-	background-position:center;
-	background-size:cover;
 	width: 100%;
 	height:110px;
 	position:relative;
@@ -243,8 +250,13 @@ div p
 	font-weight: bold;
 	font-size: 15px;
 	margin-top: 30px;
-	padding-left: 30px
-
+	padding-left: 30px;
+	color:black
+}
+.affichage:hover
+{
+	font-weight:bold;
+	color:green;
 }
 /*LES PLUS POPULAIRES*/
 
@@ -256,6 +268,7 @@ div p
 	margin-left: 30px;
 	margin-right:30px;
 	margin-top: 30px;
+	font-size:14px;
 }
 .imgpopulaire
 {
@@ -270,24 +283,27 @@ div p
 .positionImgPopulaire
 {
 	width: 365px;
-    height: 140px;
+    height: 135px;
     background-color: white;
     border-radius: 25px;
     display: flex;
-    text-align: justify;
 	margin-left:20px;
 	margin-right:15px;
+	margin-bottom:30px;
+	box-shadow: 2px 2px 6px rgb(170, 167, 167);
+
 }
-.fond_blanc2
+.bloc
 {
 	display:block;
-	
 }
 .textepop
 {
 	width: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+	font-size: 13px;
+	color:black;
 }
 
 
@@ -304,14 +320,18 @@ div p
 	margin-left: 30px;
 	margin-right: 30px;
 	width: auto;
+	height:600px;
+}
+.titreMarseille
+{
+	
 }
 .photolongue
 {
 	border-radius: 15px 15px 0 0;
 	width: 100%;
 	height:90%;
-	background-position:center;
-
+	object-fit: cover;
 }
 .cadre_blanc
 {
@@ -320,25 +340,26 @@ div p
 	border:1px solid #F2F2F2;
 	display:flex;
 	flex-direction: column;
-	width: 200px;
-	height:300px;	
+	width: 250px;
+	height:400px;	
 	padding:0;
+	box-shadow: 2px 2px 6px rgb(173, 169, 169);
 }
 .photocourte
 {
 	border-radius: 15px 15px 0 0;
-	width: auto;
-	height:120px;
-	background-position:center;
-	
+	width: 100%;
+	height:75%;
+	object-fit: cover;
+
 }
 .photocourte2
 {
 	border-radius: 15px 15px 0 0;
 	width: 100%;
-	height:120px;
-	background-position:center;
-	
+	height:75%;
+	object-fit: cover;
+
 }
 .cadre_blanc2
 {
@@ -347,17 +368,19 @@ div p
 	border:1px solid #F2F2F2;
 	display:flex;
 	flex-direction: column;
-	width: 200px;
-	height:170px;
-	margin:0;
-	
+	width: 250px;
+	height:200px;
+	box-shadow: 2px 2px 6px rgb(173, 169, 169);
+	margin-bottom:40px;
 	
 }
 .photocourte3
 {
 	border-radius: 15px 15px 0 0;
 	width: 100%;
-	height: 80px;
+	height: 70%;
+	object-fit: cover;
+
 }
 .cadre_blanc3
 {
@@ -366,18 +389,21 @@ div p
 	border:1px solid #F2F2F2;
 	display:flex;
 	flex-direction: column;
-	width: 200px;
-	height:110px;
-	margin-bottom:50px;
-	margin-top:0;
+	width: 250px;
+	height:150px;
+	margin-top:50px;
 	margin-left:0;
 	margin-right:0;
-}
+	box-shadow: 2px 2px 6px rgb(173, 169, 169);
+}	
+
 .photocourte4
 {
 	border-radius: 15px 15px 0 0;
 	width: 100%;
-	height: 100px;	
+	height: 75%;	
+	object-fit: cover;
+
 }
 .cadre_blanc4
 {
@@ -386,32 +412,33 @@ div p
 	border:1px solid #F2F2F2;
 	display:flex;
 	flex-direction: column;
-	width: 200px;
-	height:130px;
-	margin-bottom: 30px;
+	width: 250px;
+	height:180px;
+	margin-bottom: 35px;
 	margin-left:0;
+	box-shadow: 2px 2px 6px rgb(173, 169, 169);
+
 }
 .positionactivite
 {
-	
 	padding-right:20px;
 	display:flex;
-	flex-direction: row;
+	justify-content: space-evenly;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	
-	
-	
 }
-.photocolumn
+
+.text
 {
-	margin-bottom:10px;
-	width: 30%;
+	font-size: 15px;
+	margin-top : 5px;
+	margin-left:15px;
+	font-weight:bold;
+	color:black;
 }
-div .positionactivite
+.text:hover
 {
-	font-weight: bold;
-	padding-left:20px;
+	color: green;
 }
 
 
@@ -424,7 +451,10 @@ footer
 	justify-content: space-between;
 	
 }
-
+div a:hover
+{
+	color:green;
+}
 footer div
 {
 	text-decoration: none;
@@ -434,25 +464,21 @@ div ul
 {
 	list-style-type: none;
 	padding-left: 0;
-
-
 }
 div a 
 {
 	text-decoration: none;
-
+	color:black;
 }
 .a_propos
 {
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 40px;
 }
 .noshebergements
 {
-padding-left: 0px;
-margin-left: 10px;
+margin-right: 30px;
 }
 .assistance
 {
-	margin-left: 0px;
+	margin-right:400px;
 }
