@@ -151,6 +151,7 @@ div p
 {
 	padding-left: 30px;
 	padding-top: 30px;
+
 }
 .conteneurhebergement
 {
@@ -204,7 +205,7 @@ div p
 	border-radius:20px;
 	padding: 5px;
 	width: 30%;
-	height:180px;
+	height:190px;
 
 }
 .texte
@@ -235,10 +236,8 @@ div p
 	width: 100%;
 	height:110px;
 	position:relative;
-
+	object-fit: cover;
 }
-
-
 .affichage
 {
 	font-weight: bold;
@@ -260,39 +259,35 @@ div p
 }
 .imgpopulaire
 {
-	border-radius: 15px 0  0 15px ;
-	
-	
-	width: 110px;
-	height:110px;
+	margin-top: 5px;
+	margin-left:5px;
+    width: 35%;
+	height:125px ;
+	border-radius: 25px 0 0 25px;
+	object-fit: cover;
 }
 
 .positionImgPopulaire
 {
-	display: flex;
-	flex-direction: row;
-	height:50px;
-	width:100%;
+	width: 365px;
+    height: 140px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    text-align: justify;
+	margin-left:20px;
+	margin-right:15px;
 }
 .fond_blanc2
 {
-	background-color: white;
-	border-radius:20px;
-	padding: 5px;
-	width: 300px;
-	height:110px;
-	margin-left: 30px;
-	margin-top: 10px;
-	margin-bottom:20px;
+	display:block;
+	
 }
 .textepop
 {
-	padding-left: 20px;
-	padding-right: 20px;
-	font-size: 12px;
-	width:100%;
-	height:auto;
-	
+	width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -413,7 +408,7 @@ div p
 	margin-bottom:10px;
 	width: 30%;
 }
-div .positionactivite p
+div .positionactivite
 {
 	font-weight: bold;
 	padding-left:20px;
@@ -426,8 +421,7 @@ footer
 	display: flex;
 	flex-direction: row;
 	background-color: #F2F2F2;
-	justify-content: space-around;
-	border-radius: 20px;
+	justify-content: space-between;
 	
 }
 
@@ -451,7 +445,6 @@ div a
 .a_propos
 {
 	margin-left: 10px;
-	
 	margin-right: 10px;
 }
 .noshebergements
