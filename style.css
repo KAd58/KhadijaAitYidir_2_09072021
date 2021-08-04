@@ -13,7 +13,7 @@ body
 {
 	display:  flex;
 	padding-top:5px;
-
+	margin-left: 40px;
 }
 .logo img
 {	width: 70px;
@@ -21,7 +21,7 @@ body
 }
 div h1
 {
-	font-size: 1em;
+	font-size: 1.2em;
 	font-family: Raleway, "sans serif";
 }
 
@@ -37,7 +37,8 @@ nav li
 {
 	margin-right: 15px;
 	padding-top: 0px;
-
+	margin-left: 40px;
+	margin-right: 40px;
 }
 nav a 
 {
@@ -58,27 +59,72 @@ nav a:hover
 	align-items: center;
 	justify-content: space-between;
 }
+.colorblue
+{
+	color:#0065FC;
+	margin-top:3px;
+	font-weight: bold;
+}
+.boutonhebergements
+{
+	color:#0065FC;
+	border-top: 2px solid #0065FC;
+}
+.presentation
+{
+	margin-left:40px;
+}
 #recherche
 {
-	border:2px solid #F2F2F2;
-	width: 150px;
-	height:20px;
-
+	height:50px;
+	width:200px;
+	font-size:15px;
+	color:black;
+	font-weight: bold;
+	border:none;
+	padding-left:20px;
+}
+.iconsize
+{
+	height:50px;
+	width:50px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #F2F2F2;
+	border-radius:10px 0 0 10px;
+	
 }
 .recherche
 {
-	display: flex;
-	align-items: center;
+	display:flex;
+	justify-content: center;
+	width:400px;
+	border-radius: 15px;
+	margin-left:40px;
+	border:2px solid #F2F2F2;
+	margin-bottom: 30px;
 }
-.iconposition
+.bouton
 {
-	border: 2px solid #F2F2F2;
-	border-radius: 20px 0 0 20px;
-	background-color: #F2F2F22;
-	width:30px;
-	height: 25px;
+	height:50px;
+	width:230px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0065FC;
+	border-radius:0 10px 10px 0;
+	
 }
-
+.search
+{
+	color: white;
+	font-weight: bold;
+}
+.iconsize:hover,.bouton:hover ,.iconfiltre:hover, .filtre a:hover
+{
+	font-size:20px;
+}
 
 /*div*/
 
@@ -86,46 +132,62 @@ div p
 {
 	font-size:  0.8em;
 }
+.filtre
+{	display:flex;
+	align-items: center;
+	margin-left:40px;
+	
+}
 .filtre ul
 {
 	display:  flex;
-	flex-direction: row;
 	list-style-type: none;
 	justify-content: flex;
-
 	font-family: Raleway, "sans serif";
 	font-weight: bold;
 	font-size: 0.9em;
 	align-items: center;
-	
+	width:230;
+	height:30px;
 }
 .filtre a 
 {
-	border: 1px solid #F2F2F2;
+	border: 2px solid #F2F2F2;
 	display:flex;
-	flex-direction: row;
-	border-radius: 30px;
+	border-radius: 50px;
 	text-decoration: none;
 	color:black;
 	padding-right: 10px;
 	margin: 10px;
 	align-items: center;
 	text-align: center;
+	
 }
 .iconfiltre
 {
 	color:#0065FC;
-	border: 2px solid #d7f9fb;
-	border-radius:40px;
-	padding:10px;
-	margin:0;
-	background-color: #d7f9fb;
+	border: 1px solid #DEEBFF;
+	border-radius:50px;
+	height:40px;
+	width:40px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #DEEBFF;
+	font-size: 18px;
+	
+}
+
+.marge
+{
+	margin-left:10px;
+	margin-right:10px;
 }
 .info
 {
 	display: flex;
 	align-items: center;
-
+	margin-left:40px;
 }
 .Iconinfo
 {
@@ -150,6 +212,7 @@ div p
 {
 	padding-left: 30px;
 	padding-top: 30px;
+	margin-left:30px;
 
 }
 h2
@@ -167,7 +230,8 @@ h3
 	border-radius: 10px;
 	height: 600px;
 	margin-right:20px;
-	margin-left:50px;
+	margin-left:40px;
+	margin-top:30px;
 }
 .populaire
 {
@@ -176,7 +240,9 @@ h3
 	height: 600px;
 	border-radius: 10px;
 	background-color: #F2F2F2;
-	margin-right:50px;
+	margin-right:40px;
+	margin-top:30px;
+	
 }
 .bloc1
 {
@@ -253,10 +319,15 @@ h3
 	padding-left: 30px;
 	color:black
 }
+
+.fond_blanc:hover
+{
+	font-size:30px;
+}
 .affichage:hover
 {
 	font-weight:bold;
-	color:green;
+	color:#0065FC;
 }
 /*LES PLUS POPULAIRES*/
 
@@ -305,6 +376,10 @@ h3
 	font-size: 13px;
 	color:black;
 }
+.textepop:hover
+{
+	font-size:12px;
+}
 
 
 
@@ -324,13 +399,13 @@ h3
 }
 .titreMarseille
 {
-	
+	padding-left:10px;
 }
 .photolongue
 {
 	border-radius: 15px 15px 0 0;
 	width: 100%;
-	height:90%;
+	height:88%;
 	object-fit: cover;
 }
 .cadre_blanc
@@ -422,6 +497,7 @@ h3
 .positionactivite
 {
 	padding-right:20px;
+	padding-left:20px;
 	display:flex;
 	justify-content: space-evenly;
 	margin-top: 20px;
@@ -438,8 +514,10 @@ h3
 }
 .text:hover
 {
-	color: green;
+	color: #0065FC;
+	font-size: 20px;
 }
+
 
 
 /*footer*/
@@ -451,9 +529,9 @@ footer
 	justify-content: space-between;
 	
 }
-div a:hover
+footer div a:hover
 {
-	color:green;
+	color:#0065FC;
 }
 footer div
 {
