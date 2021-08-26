@@ -2,13 +2,16 @@
 body
 {
 	font-family:  Raleway, "sans serif";
+	margin:0;
 }
 #bloc_page
 {
-	width:auto;
+	width:1320px;
 	height:auto;
-	margin-left:20px;
-	margin-right:20px;
+	padding-left:20px;
+	padding-right:20px;
+	margin:0;
+	
 }
 
 /*header navigation*/
@@ -17,6 +20,8 @@ body
 #logo
 {
 	margin-left:20px;
+	font-size:1.5em;
+	position:absolute;
 }
 .alignementnav
 {
@@ -36,7 +41,7 @@ body
 {
 	display:flex;
 	text-align: end;
-	margin-left:800px;
+	margin-left:900px;
 	
 }
 .alignementnav nav li
@@ -44,14 +49,14 @@ body
 	display:block;
 	padding-top:30px;
 	text-align: center;
-	width:140px;
-	font-size:17px;
+	width:160px;
+	font-size:1.2em;
 }
 .alignementnav nav p
 {	
 	width:150px;
 	padding-top:28px;
-	font-size:17px;
+	font-size:1.2em;
 	font-weight:bold;
 }
 .alignementnav a:hover
@@ -162,9 +167,11 @@ div p
 }
 .filtre h3
 {
-	display:block;
+	
 	align-items: center;
+	padding-bottom:20px;
 	font-size:1.3em;
+	
 }
 .filtre ul
 {	
@@ -183,12 +190,12 @@ div p
 	border-radius: 50px;
 	text-decoration: none;
 	color:black;
-	padding-right: 10px;
-	margin: 15px;
+	margin-right: 10px;
+	margin-left:15px;
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	font-size: 1.2em;
+	font-size: 1em;
 	
 }
 .iconfiltre
@@ -244,15 +251,13 @@ div p
 	justify-content: space-around;
 	align-items: center;
 	width:100%;
-	margin-left:10px;
-	margin-right:10px;
+	max-width:1300px;
 }
 .titreMarseille
 {
 	padding-left: 10px;
 	padding-top: 30px;
 	margin-left:30px;
-
 }
 h2
 {
@@ -266,19 +271,21 @@ h3
 {
 	flex:2;
 	background-color: #F2F2F2;
-	border-radius: 10px;
+	border-radius: 20px;
 	height: 600px;
 	margin-right:10px;
 	margin-top:30px;
-	width:100%;
+	width:auto;
+	margin-left:20px;
 }
 .populaire
 {
 	flex:1;
 	width:auto;
-	margin-left:10px;
+	margin-left:20px;
+	margin-right:0px;
 	height: 600px;
-	border-radius: 10px;
+	border-radius: 20px;
 	background-color: #F2F2F2;
 	margin-top:30px;
 	
@@ -378,8 +385,8 @@ h3
 	display: flex;
 	align-items:center;
 	justify-content: space-between;
-	margin-left: 30px;
-	margin-right:30px;
+	margin-left: 20px;
+	margin-right:20px;
 	margin-top: 30px;
 	margin-bottom:10px;
 	font-size:17px;
@@ -388,7 +395,7 @@ h3
 {
 	margin-top: 5px;
 	margin-left:5px;
-    width: 30%;
+    width: 25%;
 	height:125px ;
 	border-radius: 25px 0 0 25px;
 	object-fit: cover;
@@ -396,7 +403,7 @@ h3
 
 .positionImgPopulaire
 {
-	width:360px;
+	width:340px;
     height: 135px;
     background-color: white;
     border-radius: 25px;
@@ -410,7 +417,7 @@ h3
 .bloc
 {
 	display:block;
-	width:auto;
+	width:100%;
 	
 }
 .textepop h3
@@ -432,16 +439,15 @@ h3
 }
 
 
-
-
 /*ACTIVITES*/
 
 .bloc_activite
 {
-    max-width: 1400px;
+    max-width: 1320px;
 	margin-top:30px;
 	height:auto;
 	margin-bottom:30px;
+	margin-left:10px;
 }
 .bloc_act
 {
@@ -494,7 +500,7 @@ h3
 {
 	border-radius: 25px;
     box-shadow: 6px 6px 15px #F2F2F2;
-	margin-right:15px;
+	margin-right:10px;
 	width:300px;
 }
 .photocolumn
@@ -539,8 +545,8 @@ footer
 	flex-direction: row;
 	background-color: #F2F2F2;
 	justify-content: space-between;
-	width: 100%;
-	
+	width:auto;
+
 }
 footer div a:hover
 {
@@ -571,13 +577,15 @@ margin-right: 30px;
 }
 .assistance
 {
-	margin-right:400px;
+	margin-right:300px;
+	
 }
 
 /*MEDIA QUERIES*/
 
-@media all and (max-width: 1300px)
+@media all and (max-width: 1240px)
 {	
+	
 	/*filtre*/
 	
 	.filtre 
@@ -654,6 +662,24 @@ margin-right: 30px;
 	{
 		width:auto;
 	}
+	footer
+	{
+		width:1320px;
+	}
+	.a_propos
+{
+	margin-left: 40px;
+	margin-right:40px;
+}
+.noshebergements
+{
+margin-right: 30px;
+}
+.assistance
+{
+	margin-right:300px;
+	
+}
 	
 }
 
@@ -682,7 +708,7 @@ margin-right: 30px;
 	.filtre h3
 	{
 		padding-top:25px;
-		font-size:1em;
+		font-size:1.1em;
 	}
 	.filtre ul
 	{
@@ -694,22 +720,24 @@ margin-right: 30px;
 
 @media all and (max-width:480px)
 {
-	.bloc_page
-	{ 	max-width: 1240px;
-		padding-left:20px;
-		padding-right: 20px;
-		
+	
+	#bloc_page
+	{
+		max-width:1240px;
+		padding-left:0px;
+		padding-right:20px;
 	}
-
 	.alignementnav
 	{
 		margin-bottom: 30px;
+		width:auto;
 	}
 	
 	.alignementnav nav
 	{	position:relative;
 		flex-direction:column-reverse;
 		flex-wrap: wrap;
+		
 	}
 	.alignementnav nav ul
 	{
@@ -721,10 +749,10 @@ margin-right: 30px;
 	{
 		padding-top: 28px;
 		padding-bottom: 10px;
-		width: auto;
 		margin-left:0px;
+		padding-left:0px;
 		border-bottom:3px solid #F2F2F2;
-		font-size:20px;
+		font-size:1.2em;
 	}
 
 	.alignementnav nav li:hover
@@ -735,14 +763,24 @@ margin-right: 30px;
 	.alignementnav nav p
 	{
 		text-align: end;
-		margin-left:auto;
+		margin-left:200px;
 	}
 
+	.boutonhebergements
+{
+	padding-left:30px;
+	padding-right:30px;
+}
+	.boutonactivite
+	{
+		padding-left:30px;
+		padding-right:30px;
+	}
 	/*search*/
 
 	.recherche
 	{
-		width:100%;
+		width:90%;
 	}
 	#recherche
 	{
@@ -772,10 +810,16 @@ margin-right: 30px;
 
 	/*filtre*/
 	
+	.filtre h3 
+	{
+		margin-left: 10px;
+	}
 		.filtre
 	{
-		display:block;
 		width:auto;
+		margin-left: 0;
+		padding-left:0px;
+		
 	}
 	
 	.filtre ul
@@ -787,8 +831,13 @@ margin-right: 30px;
 	.filtre li
 	{
 		flex-wrap:wrap;
+		padding-bottom:20px;
 	}
-
+	.filtre a
+	{
+		font-size:1em;
+	}
+	
 	/*Hebergement marseille section*/
 	.marseille
 	{
@@ -806,24 +855,28 @@ margin-right: 30px;
 	{
 		flex-direction: column;
 		margin-bottom:0px;
+		margin-left:0px;
 	}
 	.bloc2
 	{
 		flex-direction: column;
 		margin-top:0px;
+		margin-left:0px;
 	}
 
 	.fond_blanc
 	{
-		padding: 5px;
-		width: 100%;
-		height:200px;
+		padding-right: 5px;
+		padding-left: 5px;
+		padding-bottom:5px;
+		width: auto;
+		height:230px;
 		justify-content: space-between;
 		margin-bottom: 20px;
 	}
 	.image
 	{
-		height:100px;
+		height:120px;
 	
 	}
 	.texte
@@ -843,16 +896,29 @@ margin-right: 30px;
 	.populaire
 	{
 		width:auto;
-		margin-left: 30px;
+		margin-left: 0px;
 		border-radius:0px;
 	}
-	
+	.chart
+	{
+		
+		margin-left: 30px;
+		margin-right:20px;
+		font-size:17px;
+	}
+	.positionImgPopulaire
+	{
+		width:auto;
+		margin-left:10px;
+		margin-right:10px;
+		margin-bottom:10px;
+	}
 	.bloc
 	{
 		display:flex;
 		flex-direction:column;
 		align-items: center;
-	
+		width:100%;
 	}
 	.textepop h3
 	{
@@ -868,19 +934,19 @@ margin-right: 30px;
 	/*Activité*/
 	.bloc_activite
 	{
-		width:auto;
-		margin-left:10px;
+		width:100%;
+		margin-left:0px;
 	}
 
 
 	.imagesactivites
 	{
-		width: 360px;	
+		width: 320px;	
 	}
 	.imagesactivites2, .imagesactivites3, .imagesactivites4
 	{
 		margin-right:0px;
-		width:360px;
+		width:320px;
 	}
 
 	.photolongue
@@ -892,7 +958,7 @@ margin-right: 30px;
 	{
 		width: 100%;
 		height:100%;
-		margin-left:0px;
+		margin-left:30px;
 		margin-right:0px;
 		margin-bottom:40px;
 	}
@@ -918,8 +984,10 @@ margin-right: 30px;
 		display:flex;
 		flex-direction:column;
 		position:relative;
-		width:auto;
-		padding-left:20px;
+		width:100%;
+		padding-left:0px;
+		padding-right:0px;
+		margin-left:0px;
 	}
 
 	.a_propos
@@ -939,40 +1007,42 @@ margin-right: 30px;
 @media all and (max-width: 380px)
 
 {
-	body
-	{
-		margin-right:0;
-		margin-left:0;
-		
-	}
+
 	#bloc_page
-{
-	width:100%;
-	height:auto;
-	margin-left:0px;
-	margin-right:0px;
-	
-}
-.alignementnav
-{
-	width:100%;
-}
-.alignementnav nav ul
+	{
+		width:auto;
+		height:auto;
+		margin-left:0px;
+		padding-right:0px;
+	}
+	.alignementnav
 	{
 		width:100%;
-		
+	}
+	.alignementnav nav ul
+	{
+		width:auto;
 	}
 	.alignementnav nav li
 	{
-		
 		width: 100%;
-		margin-right:0;
-		padding-left:20px;
+		padding-left:10px;
+		flex-wrap: wrap;
 	}
+	.alignementnav nav p
+	{
+		margin-right:15px;
 
+	}
+	.boutonactivite
+	{
+		padding-left:20px;
+		padding-right:20px;
+		margin-right:0;
+	}
 	.recherche
 	{
-		width:80%;
+		width:90%;
 		margin-left:15px;
 	}
 	#recherche
@@ -984,19 +1054,22 @@ margin-right: 30px;
 		width:100%;
 		display:flex;
 		flex-wrap: wrap;
-		margin-left:10px;	
+		margin-left:0px;	
 	}
 	.filtre ul
 	{
 		width:auto;
+		margin-left:0;
 	}
 	.filtre li
 	{
 		width:auto;
+		margin-right:12px;
+		margin-bottom:0px;
 	}
 	.conteneurhebergement
 	{
-		width:100%;
+		width:375px;
 		height:auto;
 		margin-right:0px;
 		margin-left:0px;
@@ -1017,23 +1090,42 @@ margin-right: 30px;
 	{
 		width:auto;
 		margin-left: 0px;
-		
+		margin-right:0px;
 	}
 
+	.chart
+	{
+		margin-top:10px;
+		margin-left: 20px;
+		margin-right:20px;
+		font-size:17px;
+	}
+	.positionImgPopulaire
+	{
+		width:340px;
+		margin-left:20px;
+		margin-right:20px;
+		margin-bottom:20px;
+	}
+	.bloc
+	{
+		width:auto;
+	}
+	
 		/*activites Marseille*/
 	.bloc_activite
 	{
 		width:auto;
-		margin-left:25px;
+			
 	}
-
-
 
 	/*footer*/
 	footer 
 	{
-		width:100%;
-		padding-left:35px;
+		width:auto;
+		padding-left:30px;
+		padding-top:0px;
+		padding-right:0;
 	
 	}
 
