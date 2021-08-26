@@ -583,9 +583,20 @@ margin-right: 30px;
 
 /*MEDIA QUERIES*/
 
-@media all and (max-width: 1240px)
+@media all and (max-width: 1360px)
 {	
-	
+	#bloc_page
+	{
+		width:768px;
+		padding-right:0;
+		padding-left:0;
+		margin-right:0;
+	}
+
+	.alignementnav nav p
+	{	
+		margin-right:20px;
+	}
 	/*filtre*/
 	
 	.filtre 
@@ -664,22 +675,25 @@ margin-right: 30px;
 	}
 	footer
 	{
-		width:1320px;
+		width:100%;
+		height:auto;
 	}
 	.a_propos
-{
-	margin-left: 40px;
-	margin-right:40px;
-}
-.noshebergements
-{
-margin-right: 30px;
-}
-.assistance
-{
-	margin-right:300px;
-	
-}
+	{
+		margin-left: 40px;
+		margin-right:40px;
+	}
+	.noshebergements
+	{
+	margin-right: 50px;
+	margin-left:50px;
+	}
+	.assistance
+	{
+		margin-right:50px;
+		margin-left:50px;
+		
+	}
 	
 }
 
