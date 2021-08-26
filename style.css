@@ -1011,10 +1011,12 @@ margin-right: 30px;
 	.noshebergements
 	{
 	margin-right: 0px;
+	margin-left:0px;
 	}
 	.assistance
 	{
 		margin-right:0;
+		margin-left:0px;
 	}
 }
 	
@@ -1102,7 +1104,7 @@ margin-right: 30px;
 
 	.populaire
 	{
-		width:auto;
+		width:375px;
 		margin-left: 0px;
 		margin-right:0px;
 	}
