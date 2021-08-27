@@ -1,4 +1,3 @@
-
 body
 {
 	font-family:  'Raleway', "sans-serif";
@@ -1231,12 +1230,14 @@ margin-right: 30px;
 	{
 		padding-left:10px;
 		padding-right:10px;
-		margin-right:0;
+		margin-right:10px;
+		margin-left:10px;
 	}
 	.conteneurhebergement
 	{
 		width:auto;
 		height:auto;
+		margin-right:10px;
 	}
 
 	.bloc1
@@ -1267,13 +1268,15 @@ margin-right: 30px;
 	.positionImgPopulaire
 	{
 		width:auto;
-		margin-left:20px;
-		margin-right:20px;
+		margin-left:0px;
+		margin-right:0px;
 		margin-bottom:20px;
 	}
 	.bloc
 	{
-		width:auto;
+		width:100%;
+		margin:0;
+		padding:0;
 	}
 	
 		/*activites Marseille*/
