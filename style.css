@@ -200,7 +200,7 @@ div p
 .iconfiltre
 {
 	color:#0065FC;
-	border: 1px solid #DEEBFF;
+	border: 1px solid transparent;
 	border-radius:50px;
 	height:40px;
 	width:40px;
@@ -1292,7 +1292,7 @@ margin-right: 30px;
 		width:auto;
 		padding-left:30px;
 		padding-top:0px;
-		padding-right:30;
+		padding-right:30px;
 	
 	}
 	.a_propos
@@ -1310,4 +1310,7 @@ margin-right: 30px;
 		margin-left:0px;
 	}
 	
+}
+@media all and (max-width:250px)
+{	
 }
